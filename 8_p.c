@@ -83,6 +83,7 @@ int main(){
 	double avg_wtp;
 	avg_wtp = (avg_wt/10)*100;
 	CPU_RATE = pow(avg_wt,(double)n);
+	//cpu rate
 	printf("CPU utilization rate: %.2f\n",CPU_RATE);
 	
 	return 0;
